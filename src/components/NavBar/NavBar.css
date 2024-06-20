@@ -1,0 +1,32 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2rem;
+    background-color: rgb(30, 128, 167);
+}
+
+.nav-ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 10rem;
+    padding-block: .9rem;
+    gap: 4rem;
+}
+
+.item:hover{
+    color: rgb(255, 230, 10);
+    text-decoration: underline;
+    transition: .9s;
+}
+
+/* .carrito{
+    display: flex;
+} */
+
+/* .numerito{
+    padding-top: 1rem;
+    
+} */

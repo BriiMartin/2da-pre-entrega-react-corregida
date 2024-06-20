@@ -1,0 +1,7 @@
+.carrito{
+    cursor: pointer;
+}
+
+.icon:hover{
+    color: rgb(255, 230, 10);
+}
