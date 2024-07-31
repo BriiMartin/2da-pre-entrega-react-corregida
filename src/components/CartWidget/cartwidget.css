@@ -4,4 +4,5 @@
 
 .icon:hover{
     color: rgb(255, 230, 10);
+    transition: .4s;
 }

@@ -1,0 +1,12 @@
+.footer-container{
+    background-color: rgb(30, 128, 167);
+    margin-top: 3rem;
+    position: relative;
+    bottom: 0;
+}
+
+.h1-footer{
+    color: white;
+    font-size: 1.50rem;
+    margin: 0;
+}

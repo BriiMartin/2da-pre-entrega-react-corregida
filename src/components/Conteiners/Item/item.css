@@ -1,9 +1,43 @@
-.img{
-    width: 10rem;
-}
-.name{
-    color: black;
-}
-.price{
-    color: black;
-}
+  .contenedor-item {
+      background-color: #f9f9f9;
+      padding: 10px;
+      box-sizing: border-box;
+  }
+
+
+  .titulo-item,
+  .p-item,
+  .img-item,
+  .btn-card {
+      width: 100%;
+      margin: 10px 0;
+  }
+
+  .img-item {
+      width: 60%;
+      height: 30rem;
+      max-height: 200px;
+      margin-bottom: 10px;
+  }
+
+  .titulo-item {
+      color: black;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+  }
+
+  .p-item {
+      font-size: 1em;
+      color: #666;
+      margin-bottom: 10px;
+  }
+
+  .btn-card {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+  }

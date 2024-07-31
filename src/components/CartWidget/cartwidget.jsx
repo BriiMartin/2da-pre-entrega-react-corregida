@@ -1,19 +1,22 @@
-import React from "react";
-import { Avatar, Badge, Space } from 'antd';
+import React, { useContext } from 'react';
+import {  Badge } from 'antd';
 import './cartwidget.css'
 import { ShoppingCartOutlined } from '@ant-design/icons';
-function Cartwidget() {
+import { CartContext } from "../../context/shopContext";
+import { Link } from 'react-router-dom';
 
+const Cartwidget = () => {
+    const { cantidadCarrito } = useContext(CartContext)
     return (
+
         <div className="carrito">
-            <Badge count={1} >
-            <ShoppingCartOutlined style={{ fontSize: '30px' }} className="icon"/>
-            </Badge>
+            <Link to="/cart">
+                <Badge count={cantidadCarrito()}>
+                    <ShoppingCartOutlined style={{ fontSize: '25px' }} className="icon"/>
+                </Badge>
+            </Link>    
         </div>
-        
 
     );
-  
-  } 
-
-  export default Cartwidget
+};
+export default Cartwidget;
